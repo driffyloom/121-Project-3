@@ -1,22 +1,34 @@
 from bs4 import BeautifulSoup
 import io
+import os
 
 
-htmlFile = open("6","r");
+for subdir, dirs, files in os.walk(os.getcwd()+'\WEBPAGES_RAW'):
+    for file in files:
+        
+        filepath = subdir + os.sep + file
+        
+        if(filepath == "C:\\Users\\Austin\\Desktop\\121-Project-3\\WEBPAGES_RAW\\0\\6"):
+            print(filepath)
+            
+            with io.open(filepath, "r", encoding="utf8", errors='ignore') as fp:
+                soup = BeautifulSoup(fp)
 
-with io.open("6", "r", encoding="utf8", errors='ignore') as fp:
-    soup = BeautifulSoup(fp)
+            for script in soup.find_all('script'):
+                script.extract()
 
-for script in soup.find_all('script'):
-    script.extract()
+            for style in soup.find_all('style'):
+                style.extract()
 
-for style in soup.find_all('style'):
-    style.extract()
+            for href in soup.find_all('href'):
+                href.extract()
 
-for href in soup.find_all('href'):
-    href.extract()
+            """
+            for string in soup.stripped_strings:
+                print(string.encode("utf-8"))
+            """
 
-for string in soup.stripped_strings:
-    print(string.encode("utf-8"))
+            fp.close()
 
-fp.close()
+
+
