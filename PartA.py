@@ -18,25 +18,37 @@
 #COMPLEXITY: O(n log n)time. Finding the frequency of each word in the file is O(n), but sorting
 #           the dictionary entries takes O(nlogn) time with sorted, 
 #----------------------------------------------------------------------------------------------
-import sys, io, string
+import sys, io, string, re
+from bs4 import BeautifulSoup
 
 def replacePunc(s): #no punctuation or any weird non english characters
+    #print('s: ' + s)
     newS = ''
     for char in s:
-        if char in string.letters or char in string.digits:
-            newS += char
-        else:
-            newS += ' '
+        try:
+            #print('char: ' + char)
+            if char in string.letters or char in string.digits:
+                #print("Valid char")
+                newS += char
+            else:
+                #print("Space char")
+                newS += ' '
+        except Exception:
+            continue
     return newS
 
-def outputFrequencies(f): #f is the input file
+def outputFrequencies(f): #f is the string gen
     freq = dict()
-    for line in f: #/n is the default EOL in Python
+    for string in f:
         try:
-            lLine = line.lower() #get rid of all capitalization
+            lLine = string.lower().encode("utf-8") #get rid of all capitalization
+            #print('Lower line: ' + lLine)
             sLine = replacePunc(lLine) #replace punctuation with spaces
-            words = sLine.split() #separates at whitespaces
+            #print('Spaced line: ' + sLine)
+            words = sLine.strip().split() #separates at whitespaces
+            #print(words)
             for word in words:
+                #print(word)
                 try:
                     if word not in freq:
                         freq[word] = 1
@@ -44,19 +56,37 @@ def outputFrequencies(f): #f is the input file
                         freq[word] += 1
                 except Exception:
                     continue
-        except Exception:
-            continue
+        except Exception as ex:
+            print(ex.message)
     #sort the dictionary
     sortedFreq = sorted(freq.items(), key=lambda(k,v): (-v,k))
     for item in sortedFreq:
-        print(item[0] + '\t' + str(item[1]))#Output: [token]\t[frequency]
+            print(item[0] + '\t' + str(item[1]))#Output: [token]\t[frequency]
+    return sortedFreq
     
 
 if __name__ == "__main__":
+    fileFreq = dict() 
     try:
         inputFile = sys.argv[1]
         f = io.open(inputFile, mode='r', encoding='utf-8', errors='ignore')
-        outputFrequencies(f)
+        #lines here are added from searchengine.py
+        soup = BeautifulSoup(f, 'html.parser')
+        for script in soup.find_all('script'):
+            script.extract()
+        for style in soup.find_all('style'):
+            style.extract()
+        for href in soup.find_all('href'):
+            href.extract()
+        sortedFreq = outputFrequencies(soup.stripped_strings)
+        for item in sortedFreq:
+            if item[0] not in fileFreq:
+                fileFreq[item[0]] = item[1]
+            else:
+                fileFreq[item[0]] += item[1]
+        sortedFileFreq = sorted(fileFreq.items(), key=lambda(k,v) : (-v,k))
+        for item in sortedFileFreq:
+            print(item[0] + '\t' + str(item[1]))#Output: [token]\t[frequency]
         f.close()
     except IOError:
         print("File not found, or path is incorrect")
