@@ -21,25 +21,34 @@
 import sys, io, string, re
 from bs4 import BeautifulSoup
 from math import log10
+from nltk.corpus import stopwords
 
 def replacePunc(s): #no punctuation or any weird non english characters
     #print('s: ' + s)
     newS = ''
+    isAllNums = True
+    if (len(s) > 28) or (len(s) < 3): #longest non-technical, non-coined english word is 28 letters long
+        return " "
     for char in s:
         try:
             #print('char: ' + char)
-            if char in string.letters or char in string.digits:
-                #print("Valid char")
+            if (char in string.letters):
+                isAllNums = False
+                newS += char
+            elif (char in string.digits):
                 newS += char
             else:
-                #print("Space char")
                 newS += ' '
         except Exception:
             continue
-    return newS
+    if isAllNums == True and len(newS) < 11: #skip any tokens that are JUST numbers
+        return " "
+    else:
+        return newS
 
 def outputFrequencies(f): #f is the string gen (whole file)
     freq = dict()
+    sws = set(stopwords.words('english'))
     for string in f:
         try:
             lLine = string.lower().encode("utf-8") #get rid of all capitalization
@@ -49,14 +58,18 @@ def outputFrequencies(f): #f is the string gen (whole file)
             words = sLine.strip().split() #separates at whitespaces
             #print(words)
             for word in words:
-                #print(word)
-                try:
-                    if word not in freq:
-                        freq[word] = 1
-                    else:
-                        freq[word] += 1
-                except Exception:
-                    continue
+                if word not in sws and len(word) > 2 and len(word) < 29:
+                    #INDEXING IMPROVEMENT -> take out stopwords using nltk given stopwords list
+                    #take out words that are 2 letters or less
+                    #the longest non-coined, non-technical word is 28 letters long (according to Wikipedia)
+                    #print(word)
+                    try:
+                        if word not in freq:
+                            freq[word] = 1
+                        else:
+                            freq[word] += 1
+                    except Exception:
+                        continue
         except Exception as ex:
             print(ex.message)
     #sort the dictionary
