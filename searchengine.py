@@ -2,6 +2,7 @@ from bs4 import BeautifulSoup
 import io
 import os
 import PartA
+from math import log10
 #goes through all the files in the WEBPAGES_RAW folder and calculates their td-idf
 #THE INDEX PRINTOUT AT THE BOTTOM IS FORMATTED LIKE SO:
 '''
@@ -50,11 +51,11 @@ try:
                     else:
                         docFreq[item[0]] += 1
                     if item[0] not in invertedIndex:
-                        invertedIndex[item[0]] = dict({docName:item[1]*(numFiles/docFreq[item[0]])})
+                        invertedIndex[item[0]] = dict({docName:item[1]*(log10(numFiles/docFreq[item[0]]))})
                     else: #token may be in there, but the doc is new, so add to the doc/tf-idf dict
                         #idf = log10(N/df)
                         #tf-idf = tf x idf
-                        invertedIndex[item[0]][docName] = item[1]*(numFiles/docFreq[item[0]])
+                        invertedIndex[item[0]][docName] = item[1]*(log10(numFiles/docFreq[item[0]]))
 
                 '''
                 for item in sortedFreq:
