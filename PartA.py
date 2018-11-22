@@ -20,6 +20,7 @@
 #----------------------------------------------------------------------------------------------
 import sys, io, string, re
 from bs4 import BeautifulSoup
+from math import log10
 
 def replacePunc(s): #no punctuation or any weird non english characters
     #print('s: ' + s)
@@ -37,7 +38,7 @@ def replacePunc(s): #no punctuation or any weird non english characters
             continue
     return newS
 
-def outputFrequencies(f): #f is the string gen
+def outputFrequencies(f): #f is the string gen (whole file)
     freq = dict()
     for string in f:
         try:
@@ -59,10 +60,12 @@ def outputFrequencies(f): #f is the string gen
         except Exception as ex:
             print(ex.message)
     #sort the dictionary
+    for k,v in freq.items(): #do log-frequency weighting on the term frequency
+        freq[k] = 1 + log10(v)
     sortedFreq = sorted(freq.items(), key=lambda(k,v): (-v,k))
-    for item in sortedFreq:
-            print(item[0] + '\t' + str(item[1]))#Output: [token]\t[frequency]
-    return sortedFreq
+    #for item in sortedFreq:
+        #print(item[0] + '\t' + str(item[1]))#Output: [token]\t[frequency]
+    return sortedFreq #total frequency of a term in the doc
     
 
 if __name__ == "__main__":
@@ -92,4 +95,3 @@ if __name__ == "__main__":
         print("File not found, or path is incorrect")
     except Exception as ex:
         print(ex.message)
-    
