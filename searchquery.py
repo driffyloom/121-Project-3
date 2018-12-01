@@ -82,7 +82,6 @@ while searchQuery != "quit":
         else:
             print("No entries found for query: " + searchQuery)
     else: #query has multiple words and should take cosine into account too
-        #UNFINISHEDDDDDDD
         for word in searchQuery.split():
          
             if word in invertedIndex.keys():
@@ -108,9 +107,7 @@ while searchQuery != "quit":
                 count+=1
                 if count == 10:
                     break;
- 
-        #print("No entries found for query: " + searchQuery)
-        #DELETE THIS PRINT STATEMENT ONCE WE REPLACE ITTTT
+
     for key in results:
         print(urls[key] + " (Folder.file: " + key + ")")
 
