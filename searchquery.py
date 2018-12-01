@@ -38,10 +38,8 @@ while singleLine:
 while searchQuery != "quit":
     print("Enter Search Query:")
     searchQuery = raw_input().lower().strip()
-    for key in invertedIndex[searchQuery]:
-        print(key)
-        #print(+ " " + invertedIndex[searchQuery][key])
-
+    print(len(invertedIndex[searchQuery]))
+    
 
 print(len(invertedIndex))
 print(totalWords)
