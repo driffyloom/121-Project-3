@@ -82,9 +82,11 @@ while searchQuery != "quit":
     if len(results) > 10:
         for i in range(10):
             print(urls[results[i]] + " (Folder.file: " + results[i] + ")")
+            
     else:
         for key in results:
             print(urls[key] + " (Folder.file: " + key + ")")
+        print("The search returned no more results")
 
 print("Inverted Index Length: " + str(len(invertedIndex)))
 print("Total words: " + str(totalWords))
