@@ -39,6 +39,25 @@ while singleLine:
                           
     singleLine = invertedIndexFile.readline()
 
+#load in the bookkeeping information so we can look up the URLs for each folder.file key
+urls = dict()
+
+bookkeepingFile = io.open("WEBPAGES_RAW/bookkeeping.json", "r", encoding = 'utf-8', errors = 'ignore')
+urlLine = bookkeepingFile.readline() #skip this line since it's just {
+urlLine = bookkeepingFile.readline()
+print("Loading in bookkeeping URLs. Please wait.")
+while urlLine:
+    allTokens = re.split(':', urlLine.encode('utf-8'))
+    if allTokens[0] == "}":
+        urlLine = bookkeepingFile.readline()
+        break
+    urls[allTokens[0].strip().strip('"').replace('/', '.')] = allTokens[1].strip().strip('",')
+    urlLine = bookkeepingFile.readline()
+''' #this is for debugging
+for key in urls.keys():
+    print(key + " " + urls[key])
+''' 
+
 #Added for Milestone 2: for each word in the query that matches a token in the
 #inverted index, sort the token's doc list by tf-idf.
     #Higher tf-idf = rarer in collection, higher occurrances in doc
@@ -92,9 +111,8 @@ while searchQuery != "quit":
  
         #print("No entries found for query: " + searchQuery)
         #DELETE THIS PRINT STATEMENT ONCE WE REPLACE ITTTT
- 
     for key in results:
-        print(key)
+        print(urls[key] + " (Folder.file: " + key + ")")
 
 print("Inverted Index Length: " + str(len(invertedIndex)))
 print("Total words: " + str(totalWords))
