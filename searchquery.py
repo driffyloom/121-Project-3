@@ -135,6 +135,7 @@ class Application(Frame):
 
         searchResultLabel = Label(root, text = "Search Results:")
         searchResultLabel.pack()
+        self.labels.append(searchResultLabel)
         
         for key in results:
             lbl = Label(root, text=urls[key], fg="blue", cursor="hand2")
