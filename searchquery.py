@@ -13,7 +13,28 @@ totalWords = 0
 docFreq = dict() #{token:numberOfFilesTokenIsFoundIn}
 invertedIndex = dict() #token:dict{docID:tf-idf} A DICT WITH DICT VALUES
 searchResultDict = dict() #token:dict{url:tf-idf}
+snippetsDict = dict()
 
+#------------------------------------------------------------------------------------------
+#TITLE SNIPPETS READING
+#opens snippets file and creates the snippetsDict from it -> file of Title tags
+'''
+Snippets file format:
+<folder>/<file> title
+'''
+snippetsFile = io.open("snippets.txt", "r", encoding = 'utf8', errors = 'ignore')
+oneSnippet = snippetsFile.readline()
+print("Loading in search result snippets. Please wait.")
+while oneSnippet:
+    title = ""
+    snippetTokens = re.split(' ', oneSnippet.encode('utf8'))
+    for word in snippetTokens[1:]:
+        title += word + " "
+    snippetsDict[snippetTokens[0]] = title.strip()
+    oneSnippet = snippetsFile.readline()
+
+#-------------------------------------------------------------------------------------------
+#INVERTED INDEX READING
 #opens file and creates dictionary from inverted index file
 invertedIndexFile = io.open("invIndex.txt","r", encoding = 'utf8', errors = 'ignore')
 singleLine = invertedIndexFile.readline()
@@ -22,6 +43,11 @@ def callback(event):
     webbrowser.open_new(event.widget.cget("text"))
     
 print("Loading in inverted index. Please wait.")
+'''
+Inverted index file format:
+<token>:
+<folder>/<file> <tf-idf weight>
+'''
 while singleLine:
     allTokensInLine = re.split(' ',singleLine.encode('utf8'))
     count = 0
@@ -42,6 +68,8 @@ while singleLine:
                           
     singleLine = invertedIndexFile.readline()
 
+#----------------------------------------------------------------------------------------------
+#URL TO FOLDER.FILE MAPPING THROUGH BOOKKEEPING.JSON
 #load in the bookkeeping information so we can look up the URLs for each folder.file key
 urls = dict()
 
@@ -54,12 +82,8 @@ while urlLine:
     if allTokens[0] == "}":
         urlLine = bookkeepingFile.readline()
         break
-    urls[allTokens[0].strip().strip('"').replace('/', '.')] = allTokens[1].strip().strip('",')
+    urls[allTokens[0].strip().strip('"')] = allTokens[1].strip().strip('",')
     urlLine = bookkeepingFile.readline()
-''' #this is for debugging
-for key in urls.keys():
-    print(key + " " + urls[key])
-''' 
 
 #Added for Milestone 2: for each word in the query that matches a token in the
 #inverted index, sort the token's doc list by tf-idf.
@@ -68,6 +92,8 @@ for key in urls.keys():
 print("Inverted Index Length: " + str(len(invertedIndex)))
 print("Total words: " + str(totalWords))
 
+#---------------------------------------------------------------------------------------------
+#TKINTER GUI, SEARCHING
 
 class Application(Frame):
 
@@ -87,12 +113,9 @@ class Application(Frame):
                     #print(+ " " + invertedIndex[searchQuery][key])
             else:
                 print("No entries found for query: " + searchQuery)
-        else: #query has multiple words and should take cosine into account too
+        else: #query has multiple words
             for word in searchQuery.split():
-             
                 if word in invertedIndex.keys():
-
-                        
                     for url in invertedIndex[word]:
                         if url in invertedIndex.keys():  
                             searchResultDict[url] += invertedIndex[word][url]
@@ -122,7 +145,7 @@ class Application(Frame):
         searchResultLabel.pack()
         self.labels.append(searchResultLabel)
         
-        for key in results:
+        for key in results: #creates hyperlinks?
             lbl = Label(root, text=urls[key], fg="blue", cursor="hand2")
             lbl.pack()
             lbl.bind("<Button-1>", callback)
@@ -130,7 +153,7 @@ class Application(Frame):
             #print(urls[key] + " (Folder.file: " + key + ")" )
         
 
-    def createWidgets(self):
+    def createWidgets(self): #creates button layouts, text box layouts
         self.MOOGLE = Label(root, text = "MOOGLE SEARCH")
         self.MOOGLE.pack({"side": "top"})
 

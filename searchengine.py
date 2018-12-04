@@ -3,6 +3,7 @@ import io
 import os
 import PartA
 from math import log10
+import string
 
 
 if __name__ == "__main__":
@@ -23,13 +24,11 @@ if __name__ == "__main__":
         for subdir, dirs, files in os.walk(os.getcwd()+'\WEBPAGES_RAW'):
             folderName = subdir[len(os.getcwd())+14:]
             for file in files:
-                
-                numFiles += 1
+                numFiles += 1 
                 filepath = subdir + os.sep + file
                 docName = folderName + '/' + file
                 
-                #if("WEBPAGES_RAW\\0" in filepath): #== "C:\\Users\\Biancat\\Documents\\CS121-InfoRetrieval\\121-Project-3\\WEBPAGES_RAW\\0\\6"):
-                #print(docName)
+                print(docName)
                 
                 with io.open(filepath, "r", encoding="utf8", errors='ignore') as fp:
                     soup = BeautifulSoup(fp)
@@ -44,10 +43,20 @@ if __name__ == "__main__":
                     href.extract()
 
                 #grab the title
-                print("Title: " + str(soup.title).strip("<title>").strip("</title>"))
-                snippetsDict[docName] = str(soup.title).strip("<title>").strip("</title>")
+                #print("Title: " + str(soup.title).strip("<title>").strip("</title>").strip())
+                if soup.title != None:
+                    title = ''
+                    titleWords = str(soup.title).strip("<title>").strip("</title>").strip().split()
+                    for word in titleWords:
+                        if word[0] != '<':
+                            for letter in word:
+                                if letter in string.printable: #take out any characters that aren't A-Z or 0-9 for easier reading
+                                    title += letter
+                            title += " "
+                    if (title.strip() != "" and title.strip() != " "):
+                        snippetsDict[docName] = title.strip()
 
-                #sortedFreq has the log-freq weighted term frequency: [item(token:weighted term freq)]
+                #sortedFreq has the log-freq weighted term frequency for each term in one file: [item(token:weighted term freq)]
                 #w = 1 + log10(tf)
                 sortedFreq = PartA.outputFrequencies(soup.stripped_strings)
                 #calculate the tf-idf of each term, and stick it in the filesFreq
@@ -58,18 +67,29 @@ if __name__ == "__main__":
                     else:
                         docFreq[item[0]] += 1
                     if item[0] not in invertedIndex:
-                        invertedIndex[item[0]] = dict({docName:item[1]*(log10(numFiles/docFreq[item[0]]))})
-                    else: #token may be in there, but the doc is new, so add to the doc/tf-idf dict
-                        #idf = log10(N/df)
-                        #tf-idf = tf x idf
-                        invertedIndex[item[0]][docName] = item[1]*(log10(numFiles/docFreq[item[0]]))
-     
+                        invertedIndex[item[0]] = dict({docName:item[1]}) #for now, store tf. Then, after we know how total docs, calc and mult. by IDF
+                    else: #token may be in there, but the doc is new, so add to the doc/tf        
+                        invertedIndex[item[0]][docName] = item[1]
                 fp.close()
+#-----------------------------------------------------------------------------------------
+#GENERATE THE TF-IDF FOR EACH DOCUMENT IN EACH TOKEN DICT
+#note: the tf is already stored for each document. Just multiply it by idf
+        print("Going through and calculating tf-idfs")
+        for token, docDict in invertedIndex.items():
+            #idf = log10(N/df)
+            #tf-idf = tf x idf
+            for docID, tfidf in docDict.items():
+                tf = tfidf
+                docDict[docID] = tf * log10(numFiles/docFreq[token])
+        print("Calculated tf-idfs")
 
     except IOError:
             print("File not found, or path is incorrect")
     except Exception as ex:
         print(ex.message)
+
+#----------------------------------------------------------------------------------------
+#FILE WRITING: INVERTED INDEX AND SNIPPETS (TITLES IF THEY EXIST) DICT
 
     #write the index to a file in the format:
     '''
