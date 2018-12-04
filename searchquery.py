@@ -13,8 +13,6 @@ totalWords = 0
 docFreq = dict() #{token:numberOfFilesTokenIsFoundIn}
 invertedIndex = dict() #token:dict{docID:tf-idf} A DICT WITH DICT VALUES
 searchResultDict = dict() #token:dict{url:tf-idf}
-indexElimination = dict() #number of words in a doc matching
-
 
 #opens file and creates dictionary from inverted index file
 invertedIndexFile = io.open("invIndex.txt","r", encoding = 'utf8', errors = 'ignore')
@@ -100,30 +98,17 @@ class Application(Frame):
                             searchResultDict[url] += invertedIndex[word][url]
                         else:
                             searchResultDict[url] = invertedIndex[word][url]
-                        if url in indexElimination.keys():  
-                            indexElimination[url] += 1
-                        else:
-                            indexElimination[url] = 1
 
                         
             count = 0
             for key, value in sorted(searchResultDict.items(), key = lambda(x,y): y, reverse = True):
                 #then print out the keys in the sorted, decreasing tf-idf order
-                if (len(searchQuery.split()) >= 4):
-                    if(float(indexElimination[key])*.75)>= (float(len(searchQuery.split())*.75)):
-                        results.append(key)
-                        #print(key + " " + value)
-                        count+=1
-                        if count == 10:
-                            break;
-                else:
-                    results.append(key)
-                    #print(key + " " + value)
-                    count+=1
-                    if count == 10:
-                        break;
+                results.append(key)
+                #print(key + " " + value)
+                count+=1
+                if count == 10:
+                    break;
 
-        indexElimination.clear()
         searchResultDict.clear()
 
         if(len(self.labels)>0):
@@ -143,9 +128,6 @@ class Application(Frame):
             lbl.bind("<Button-1>", callback)
             self.labels.append(lbl)
             #print(urls[key] + " (Folder.file: " + key + ")" )
-
-        #configuring a tag with a certain style (font color)
-        #self.searchResults.tag_configure("blue", foreground="blue")
         
 
     def createWidgets(self):
