@@ -132,28 +132,24 @@ class Application(Frame):
 
     def createWidgets(self):
         self.MOOGLE = Label(root, text = "MOOGLE SEARCH")
-        self.MOOGLE.pack({"side": "top"})
+        self.MOOGLE.pack(side="top",padx=20, pady=20)
 
         self.e1 = Entry(root)
-        self.e1.pack({"side": "top"})
+        self.e1.pack(side="top",padx=20, pady=20, anchor = "center")
         
         self.searchButton = Button(self)
         self.searchButton["text"] = "Search"
         self.searchButton["command"] = self.search
-            
-        self.searchButton.pack({"side": "left"})
+        self.searchButton.pack(side="bottom",anchor = "center")
         
         self.QUIT = Button(self)
-        self.QUIT["text"] = "QUIT"
+        self.QUIT["text"] = "Quit"
         self.QUIT["fg"]   = "red"
         self.QUIT["command"] =  self.quit
-        self.QUIT.pack({"side": "right"})
-
-
-
+        self.QUIT.pack(side="top",anchor = "center")
+        
     def __init__(self, master=None):
         Frame.__init__(self, master)
-        self.labels = []
         self.pack()
         self.createWidgets()
 
@@ -161,7 +157,7 @@ root = Tk()
 
 root.title("SEARCH ENGINE")
 
-root.geometry("800x400")
+root.geometry("800x500")
 
 root.configure(background = 'black')
             
