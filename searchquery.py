@@ -5,6 +5,7 @@ import io
 import heapq
 import math
 from Tkinter import *
+import webbrowser
 
 searchQuery = ""
 
@@ -19,7 +20,9 @@ indexElimination = dict() #number of words in a doc matching
 invertedIndexFile = io.open("invIndex.txt","r", encoding = 'utf8', errors = 'ignore')
 singleLine = invertedIndexFile.readline()
 
-
+def callback(event):
+    webbrowser.open_new(event.widget.cget("text"))
+    
 print("Loading in inverted index. Please wait.")
 while singleLine:
     allTokensInLine = re.split(' ',singleLine.encode('utf8'))
@@ -69,6 +72,7 @@ print("Total words: " + str(totalWords))
 
 
 class Application(Frame):
+
     def search(self):
         searchQuery = self.e1.get().lower().strip()
         queryWords = searchQuery.split()
@@ -121,21 +125,26 @@ class Application(Frame):
 
         indexElimination.clear()
         searchResultDict.clear()
-        
-        try:
-            self.searchResults.pack_forget()
-        except:
-            pass
+
+        if(len(self.labels)>0):
+            for label in self.labels:
+                label.destroy()
+            self.labels = []
             
         searchString = ""
+
+        searchResultLabel = Label(root, text = "Search Results:")
+        searchResultLabel.pack()
+        
         for key in results:
-            searchString += urls[key] + "\n\n"
+            lbl = Label(root, text=urls[key], fg="blue", cursor="hand2")
+            lbl.pack()
+            lbl.bind("<Button-1>", callback)
+            self.labels.append(lbl)
             #print(urls[key] + " (Folder.file: " + key + ")" )
-        self.searchResults = Text(root, height=2, width=30)
-        self.searchResults.pack(expand=True, fill='both')
-        self.searchResults.insert(END, searchString)
-        # configuring a tag with a certain style (font color)
-        self.searchResults.tag_configure("blue", foreground="blue")
+
+        #configuring a tag with a certain style (font color)
+        #self.searchResults.tag_configure("blue", foreground="blue")
         
 
     def createWidgets(self):
@@ -158,6 +167,7 @@ class Application(Frame):
 
     def __init__(self, master=None):
         Frame.__init__(self, master)
+        self.labels = []
         self.pack()
         self.createWidgets()
 
