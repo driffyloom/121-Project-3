@@ -143,10 +143,14 @@ class Application(Frame):
         searchResultLabel = Label(root, text = "Search Results:")
         searchResultLabel.pack()
         self.labels.append(searchResultLabel)
-        
+        count = 1        
         for key in results: #creates hyperlinks?
             #FOR NOW, JUST PRINT TITLE SNIPPET OUT ONTO CONSOLE. MOVE INTO GUI LATER
-            print(snippetsDict[key])
+            #print(snippetsDict[key])
+            titleLabel = Label(root, text=str(count) + ".)" + snippetsDict[key])
+            count+=1
+            titleLabel.pack()
+            self.labels.append(titleLabel)
             lbl = Label(root, text=urls[key], fg="blue", cursor="hand2")
             lbl.pack()
             lbl.bind("<Button-1>", callback)
@@ -174,6 +178,7 @@ class Application(Frame):
         
     def __init__(self, master=None):
         Frame.__init__(self, master)
+        self.labels = []
         self.pack()
         self.createWidgets()
 
@@ -181,7 +186,7 @@ root = Tk()
 
 root.title("SEARCH ENGINE")
 
-root.geometry("800x500")
+root.geometry("800x650")
 
 root.configure(background = 'black')
             
