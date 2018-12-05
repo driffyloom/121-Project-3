@@ -23,12 +23,13 @@ if __name__ == "__main__":
     try:
         for subdir, dirs, files in os.walk(os.getcwd()+'\WEBPAGES_RAW'):
             folderName = subdir[len(os.getcwd())+14:]
+            #print(folderName)
             for file in files:
                 numFiles += 1 
                 filepath = subdir + os.sep + file
                 docName = folderName + '/' + file
                 
-                print(docName)
+                #print(docName)
                 
                 with io.open(filepath, "r", encoding="utf8", errors='ignore') as fp:
                     soup = BeautifulSoup(fp)

@@ -10,7 +10,6 @@ import webbrowser
 searchQuery = ""
 
 totalWords = 0
-docFreq = dict() #{token:numberOfFilesTokenIsFoundIn}
 invertedIndex = dict() #token:dict{docID:tf-idf} A DICT WITH DICT VALUES
 searchResultDict = dict() #token:dict{url:tf-idf}
 snippetsDict = dict()
@@ -62,7 +61,7 @@ while singleLine:
             docName = token
 
         if count == 1:
-            invertedIndex[indexToken][docName] = token.strip()
+            invertedIndex[indexToken][docName] = float(token.strip())
 
         count += 1
                           
@@ -104,7 +103,7 @@ class Application(Frame):
         if len(queryWords) == 1:
             if searchQuery in invertedIndex.keys():
                 count = 0
-                for key, value in sorted(invertedIndex[searchQuery].items(), key = lambda(x,y): y, reverse = True):
+                for key, value in sorted(invertedIndex[searchQuery].items(), key = lambda(x,y): (-y,x)):
                     #then print out the keys in the sorted, decreasing tf-idf order
                     results.append(key)
                     count+=1
@@ -124,7 +123,7 @@ class Application(Frame):
 
                         
             count = 0
-            for key, value in sorted(searchResultDict.items(), key = lambda(x,y): y, reverse = True):
+            for key, value in sorted(searchResultDict.items(), key = lambda(x,y):(-y,x)):
                 #then print out the keys in the sorted, decreasing tf-idf order
                 results.append(key)
                 #print(key + " " + value)
@@ -146,6 +145,8 @@ class Application(Frame):
         self.labels.append(searchResultLabel)
         
         for key in results: #creates hyperlinks?
+            #FOR NOW, JUST PRINT TITLE SNIPPET OUT ONTO CONSOLE. MOVE INTO GUI LATER
+            print(snippetsDict[key])
             lbl = Label(root, text=urls[key], fg="blue", cursor="hand2")
             lbl.pack()
             lbl.bind("<Button-1>", callback)
