@@ -4,6 +4,7 @@ import os
 import PartA
 from math import log10
 import string
+from collections import defaultdict
 
 
 if __name__ == "__main__":
@@ -16,10 +17,10 @@ if __name__ == "__main__":
     '''
     #so a file with the full path C:\\Users\\Biancat\\Documents\\CS121-InfoRetrieval\\121-Project-3\\WEBPAGES_RAW\\0\\6
     #ends up with a docName of 0.6
-    docFreq = dict() #{token:numberOfFilesTokenIsFoundIn}
-    invertedIndex = dict() #token:dict{docID:tf-idf} A DICT WITH DICT VALUES
+    docFreq = defaultdict() #{token:numberOfFilesTokenIsFoundIn}
+    invertedIndex = defaultdict() #token:dict{docID:tf-idf} A DICT WITH DICT VALUES
     numFiles = 0;
-    snippetsDict = dict() #{docID:title)
+    snippetsDict = defaultdict() #{docID:title)
     try:
         for subdir, dirs, files in os.walk(os.getcwd()+'\WEBPAGES_RAW'):
             folderName = subdir[len(os.getcwd())+14:]
