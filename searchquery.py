@@ -126,7 +126,7 @@ class Application(Frame):
             for key, value in sorted(searchResultDict.items(), key = lambda(x,y):(-y,x)):
                 #then print out the keys in the sorted, decreasing tf-idf order
                 results.append(key)
-                #print(key + " " + value)
+                print(key + " " + str(value))
                 count+=1
                 if count == 10:
                     break;
@@ -147,7 +147,7 @@ class Application(Frame):
         for key in results: #creates hyperlinks?
             #FOR NOW, JUST PRINT TITLE SNIPPET OUT ONTO CONSOLE. MOVE INTO GUI LATER
             #print(snippetsDict[key])
-            titleLabel = Label(root, text=str(count) + ".)" + snippetsDict[key])
+            titleLabel = Label(root, text=str(count) + ".) " + snippetsDict[key])
             count+=1
             titleLabel.pack()
             self.labels.append(titleLabel)
@@ -155,7 +155,7 @@ class Application(Frame):
             lbl.pack()
             lbl.bind("<Button-1>", callback)
             self.labels.append(lbl)
-            #print(urls[key] + " (Folder.file: " + key + ")" )
+            print(urls[key] + " (Folder.file: " + key + ")")
         
 
     def createWidgets(self): #creates button layouts, text box layouts
