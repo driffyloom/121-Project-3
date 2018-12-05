@@ -6,13 +6,14 @@ import heapq
 import math
 from Tkinter import *
 import webbrowser
+from collections import defaultdict
 
 searchQuery = ""
 
 totalWords = 0
-invertedIndex = dict() #token:dict{docID:tf-idf} A DICT WITH DICT VALUES
-searchResultDict = dict() #token:dict{url:tf-idf}
-snippetsDict = dict()
+invertedIndex = defaultdict() #token:dict{docID:tf-idf} A DICT WITH DICT VALUES
+searchResultDict = defaultdict() #token:dict{url:tf-idf}
+snippetsDict = defaultdict()
 
 #------------------------------------------------------------------------------------------
 #TITLE SNIPPETS READING
@@ -116,17 +117,18 @@ class Application(Frame):
             for word in searchQuery.split():
                 if word in invertedIndex.keys():
                     for url in invertedIndex[word]:
-                        if url in invertedIndex.keys():  
-                            searchResultDict[url] += invertedIndex[word][url]
+                        if url in searchResultDict.keys():  
+                            searchResultDict[url] = searchResultDict[url] + invertedIndex[word][url]
                         else:
                             searchResultDict[url] = invertedIndex[word][url]
-
                         
             count = 0
             for key, value in sorted(searchResultDict.items(), key = lambda(x,y):(-y,x)):
                 #then print out the keys in the sorted, decreasing tf-idf order
                 results.append(key)
-                print(key + " " + str(value))
+                
+                #print(key + " " + str(value))
+
                 count+=1
                 if count == 10:
                     break;
@@ -155,7 +157,9 @@ class Application(Frame):
             lbl.pack()
             lbl.bind("<Button-1>", callback)
             self.labels.append(lbl)
-            print(urls[key] + " (Folder.file: " + key + ")")
+
+            #print(urls[key] + " (Folder.file: " + key + ")")
+
         
 
     def createWidgets(self): #creates button layouts, text box layouts
