@@ -126,7 +126,7 @@ class Application(Frame):
             for key, value in sorted(searchResultDict.items(), key = lambda(x,y):(-y,x)):
                 #then print out the keys in the sorted, decreasing tf-idf order
                 results.append(key)
-                #print(key + " " + value)
+                print(key + " " + str(value))
                 count+=1
                 if count == 10:
                     break;
@@ -143,38 +143,39 @@ class Application(Frame):
         searchResultLabel = Label(root, text = "Search Results:")
         searchResultLabel.pack()
         self.labels.append(searchResultLabel)
-        
+        count = 1        
         for key in results: #creates hyperlinks?
             #FOR NOW, JUST PRINT TITLE SNIPPET OUT ONTO CONSOLE. MOVE INTO GUI LATER
-            print(snippetsDict[key])
+            #print(snippetsDict[key])
+            titleLabel = Label(root, text=str(count) + ".) " + snippetsDict[key])
+            count+=1
+            titleLabel.pack()
+            self.labels.append(titleLabel)
             lbl = Label(root, text=urls[key], fg="blue", cursor="hand2")
             lbl.pack()
             lbl.bind("<Button-1>", callback)
             self.labels.append(lbl)
-            #print(urls[key] + " (Folder.file: " + key + ")" )
+            print(urls[key] + " (Folder.file: " + key + ")")
         
 
     def createWidgets(self): #creates button layouts, text box layouts
         self.MOOGLE = Label(root, text = "MOOGLE SEARCH")
-        self.MOOGLE.pack({"side": "top"})
+        self.MOOGLE.pack(side="top",padx=20, pady=20)
 
         self.e1 = Entry(root)
-        self.e1.pack({"side": "top"})
+        self.e1.pack(side="top",padx=20, pady=20, anchor = "center")
         
         self.searchButton = Button(self)
         self.searchButton["text"] = "Search"
         self.searchButton["command"] = self.search
-            
-        self.searchButton.pack({"side": "left"})
+        self.searchButton.pack(side="bottom",anchor = "center")
         
         self.QUIT = Button(self)
-        self.QUIT["text"] = "QUIT"
+        self.QUIT["text"] = "Quit"
         self.QUIT["fg"]   = "red"
         self.QUIT["command"] =  self.quit
-        self.QUIT.pack({"side": "right"})
-
-
-
+        self.QUIT.pack(side="top",anchor = "center")
+        
     def __init__(self, master=None):
         Frame.__init__(self, master)
         self.labels = []
@@ -185,7 +186,7 @@ root = Tk()
 
 root.title("SEARCH ENGINE")
 
-root.geometry("800x400")
+root.geometry("800x650")
 
 root.configure(background = 'black')
             
