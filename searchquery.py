@@ -119,19 +119,14 @@ class Application(Frame):
                     for url in invertedIndex[word]:
                         if url in searchResultDict.keys():  
                             searchResultDict[url] = searchResultDict[url] + invertedIndex[word][url]
-                            if url == "14/223":
-                                print("1 adding " + word  + " url " + url + " result " + str(invertedIndex[word][url]) + "now it is " + str(searchResultDict[url]))
                         else:
                             searchResultDict[url] = invertedIndex[word][url]
-                            if url == "14/223":
-                                print("2 adding " + word +  " url " + url + " result " + str(invertedIndex[word][url])+ "now it is " + str(searchResultDict[url]))
-
                         
             count = 0
             for key, value in sorted(searchResultDict.items(), key = lambda(x,y):(-y,x)):
                 #then print out the keys in the sorted, decreasing tf-idf order
                 results.append(key)
-                print(key + " " + str(value))
+                #print(key + " " + str(value))
                 count+=1
                 if count == 10:
                     break;
@@ -160,7 +155,7 @@ class Application(Frame):
             lbl.pack()
             lbl.bind("<Button-1>", callback)
             self.labels.append(lbl)
-            print(urls[key] + " (Folder.file: " + key + ")")
+            #print(urls[key] + " (Folder.file: " + key + ")")
         
 
     def createWidgets(self): #creates button layouts, text box layouts
