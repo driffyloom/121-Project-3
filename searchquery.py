@@ -126,7 +126,9 @@ class Application(Frame):
             for key, value in sorted(searchResultDict.items(), key = lambda(x,y):(-y,x)):
                 #then print out the keys in the sorted, decreasing tf-idf order
                 results.append(key)
+                
                 #print(key + " " + str(value))
+
                 count+=1
                 if count == 10:
                     break;
@@ -155,7 +157,9 @@ class Application(Frame):
             lbl.pack()
             lbl.bind("<Button-1>", callback)
             self.labels.append(lbl)
+
             #print(urls[key] + " (Folder.file: " + key + ")")
+
         
 
     def createWidgets(self): #creates button layouts, text box layouts

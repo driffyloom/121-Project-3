@@ -72,13 +72,10 @@ def outputFrequencies(f): #f is the string gen (whole file)
                         continue
         except Exception as ex:
             print(ex.message)
-    #sort the dictionary
+            
     for k,v in freq.items(): #do log-frequency weighting on the term frequency
         freq[k] = 1 + log10(v)
-    sortedFreq = sorted(freq.items(), key=lambda(k,v): (-v,k))
-    #for item in sortedFreq:
-        #print(item[0] + '\t' + str(item[1]))#Output: [token]\t[frequency]
-    return sortedFreq #total frequency of a term in the doc
+    return freq #total frequency of a term in the doc
     
 
 if __name__ == "__main__":

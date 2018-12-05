@@ -776,7 +776,7 @@
 57/388 faculty profile @ the bren school of information and computer sciences at uc irvin
 57/389 Index of /~pattis/common/handouts/macclion/libraries/gtestlib/docs
 58/257 honors opportunities @ the bren school of information and computer sciences
-58/256 id="pageTitle">Facebook
+58/256 id="pageTitle"> Facebook
 58/251 Index of /releases/4.0/src/u
 58/250 faculty profile @ the bren school of information and computer sciences at uc irvin
 58/253 Info Session  Women in Information and Computer Sciences
@@ -1614,7 +1614,7 @@
 1/84 Error Occurred While Processing Reques
 37/365 Alumni from the Donald Bren School of Information and Computer Sciences
 1/86 Index of /~fowlkes/softwar
-37/367 id="pageTitle">Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
+37/367 id="pageTitle"> Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
 37/368 Server Side Perspectiv
 37/369 Database Research Group @ UCI
 63/288 Virtual Collaboration Porta
@@ -1884,7 +1884,7 @@
 35/62 Rheinische Friedrich-Wilhelms-Univ. Bonn, Forschungsinst. fr Diskrete Mathematik
 35/63 Index of /databases/chess/domain-theories
 35/64 Ban S v Sinh vin  LIN H  BREN: Khoa hc Thng tin v in ton  i hc California Irvin
-35/65 id="pageTitle">Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
+35/65 id="pageTitle"> Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
 35/66 faculty @ the bren school of information and computer sciences
 35/67 UCI Machine Learning Repository
 35/68 UCI Machine Learning Repository
@@ -1893,7 +1893,7 @@
 66/112 Yi H
 32/174 Index of /releases/4.1/src
 32/175 Index of /~rickl/courses/AI-projects/sudoku-solver/SudokuProjectShell/SudokuProject/src/sudoku
-32/176 id="pageTitle">Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
+32/176 id="pageTitle"> Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
 32/177 Share a link on Twitter
 32/170 UCI Machine Learning Repository
 32/171 grouptab_details_view_image_rahmani.jpg_ns_do_mediado_recent [Dutt Research Group]
@@ -2728,7 +2728,7 @@
 30/210 grouptab_details_view_image_rahmani.jpg_ns_do_media [Dutt Research Group]
 52/395 AltWen-TR-98
 65/279 software:arem  Machine Learning and Bioinformatics Lab
-65/278 id="pageTitle">Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
+65/278 id="pageTitle"> Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
 65/277 Index of /~pattis/common/images
 65/276 gsu group home directory @ the bren school of information and computer sciences
 65/275 Computational Vision | ICS | UC Irvin
@@ -2869,7 +2869,7 @@
 72/128 Minimum dilation stars
 60/108 Hong Kong Univ. of Science &amp; Tech., Dept. of Computer Scienc
 6/105 Info Session  Women in Information and Computer Sciences
-72/123 id="pageTitle">Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
+72/123 id="pageTitle"> Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
 60/105 Student Affairs  Contact  Bren School of Information and Computer Sciences  University of California Irvin
 60/106 drg101_admin [Dutt Research Group]
 60/107 Archive of Working Group on Versioning and Configuration Management of World Wide Web Content: RE: Seiwald Q &amp; A -- "GET for EDIT" cookies
@@ -3082,7 +3082,7 @@
 64/351 Index of /~smyth/courses/stats5/onlineslides
 63/272 A fast algorithm for the alpha-connected two-center decision problem
 64/350 Alumni from the Donald Bren School of Information and Computer Sciences
-64/353 id="pageTitle">Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
+64/353 id="pageTitle"> Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
 64/352 attraction_force_sum : Built with Processing
 74/279 Info Session  Women in Information and Computer Sciences
 74/278 discussion:drg101 [Dutt Research Group]
@@ -3230,7 +3230,7 @@
 22/218 Python Download and Installation Instructions
 22/219 WikiCourse - UAI '08 Workshop: Probabilistic Reasoning Systems
 47/268 org.itr_rescue.dataGuard.ExtApps
-47/269 id="pageTitle">Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
+47/269 id="pageTitle"> Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
 47/264 faculty profile @ the bren school of information and computer sciences at uc irvin
 47/265 Dr. Rina Dechter @ UCI
 47/266 Searching for Dependencies
@@ -3606,7 +3606,7 @@
 26/354 Ban S v Sinh vin  LIN H  BREN: Khoa hc Thng tin v in ton  i hc California Irvin
 72/463 P. Srinivasan
 6/389 communication  Ramesh Jain
-6/388 id="pageTitle">Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
+6/388 id="pageTitle"> Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
 62/66 UCI Machine Learning Repository
 62/67 Roman Waupotitsch
 62/61 ICS 4 Course Referenc
@@ -4064,7 +4064,7 @@
 60/223 grouptab_details_view_image_rahmani.jpg_ns_do_media [Dutt Research Group]
 60/222 On the generation of alternative solutions for discrete optimization problems with uncertain data: an experimental analysis of the penalty method
 64/345 2006-07 annual report student affairs @ the bren school of information and computer sciences
-27/1 id="pageTitle">Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
+27/1 id="pageTitle"> Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
 27/2 Telepresence and E2E  Ramesh Jain
 27/3 PowerPoint Presentation - Introduction and Overview
 27/4 US 3 Resources
@@ -4262,7 +4262,7 @@
 21/340 press release @ the bren school of information and computer sciences
 69/338 Jacqueline Lee  Women in Information and Computer Sciences
 69/339 Reducing Misclassification Costs
-69/336 id="pageTitle">Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
+69/336 id="pageTitle"> Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
 69/337 Alumni from the Donald Bren School of Information and Computer Sciences
 69/334 Alumni from the Donald Bren School of Information and Computer Sciences
 69/332 Related Search Methods
@@ -4554,7 +4554,7 @@
 62/411 about the bren gift @ the bren school of information and computer sciences
 62/412 discussion:home [Dutt Research Group]
 62/413 CHEM.DB.ReactDBPopulator
-49/459 id="pageTitle">Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
+49/459 id="pageTitle"> Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
 49/458 News  EVOKE Lab and Studio
 49/454 Index of /~rickl/courses/ics-h197/2014-fq-h197/ICS-H197-FQ-2014_files
 49/457 Alumni from the Donald Bren School of Information and Computer Sciences
@@ -4998,7 +4998,7 @@
 68/308 faculty profile @ the bren school of information and computer sciences at uc irvin
 68/309 Alumni from the Donald Bren School of Information and Computer Sciences
 48/289 Kernel::ConstructMidpoint_2
-48/288 xmlns="">Christian Medeiros Adriano
+48/288 xmlns=""> Christian Medeiros Adriano
 48/285 V. Makinen
 48/287 Alumni from the Donald Bren School of Information and Computer Sciences
 48/286 J. ACM
@@ -5665,7 +5665,7 @@
 15/226 projects [Dutt Research Group]
 15/229 Mathematical Reviews 2004g:90114
 15/228 Alumni from the Donald Bren School of Information and Computer Sciences
-66/153 id="pageTitle">Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
+66/153 id="pageTitle"> Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
 66/152 Distributed Authoring Issues
 66/155 Theory Seminar, February 12, 2016
 71/128 faculty profile @ the bren school of information and computer sciences at uc irvin
@@ -6054,7 +6054,7 @@
 55/181 Topological Maps
 55/182 Robert Glck
 55/183 Index of /ml/machine-learning-databases/00304
-66/419 id="pageTitle">Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
+66/419 id="pageTitle"> Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
 43/394 Homepage Alfred Kobsa
 43/395 ACM Trans. Graphics
 43/396 Alumni from the Donald Bren School of Information and Computer Sciences
@@ -6151,7 +6151,7 @@
 38/322 Suzanne Gallagher
 38/321 4.51 OEGetAtomicNum
 38/320 Process GO Term transcription And related genes
-38/327 id="pageTitle">Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
+38/327 id="pageTitle"> Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
 38/326 Capstone Projects | MHCID ICS
 38/325 Brain Engineering Laboratory - FAQ
 38/324 Index of /~minhaenl/class/2015/cs_171_fall/draft/results/results_vs_GoodAI_w9_h8_g0/reichela_checkmates
@@ -6948,7 +6948,7 @@
 18/11 Maps become more visual  Ramesh Jain
 18/12 Sergei Ovchinnikov
 18/13 Campus contacts - CS Theory Wik
-18/18 id="pageTitle">Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
+18/18 id="pageTitle"> Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
 18/19 about the bren gift @ the bren school of information and computer sciences
 9/390 BerEppGil-FOCS-90
 73/244 Faculty positions - interview questions - CS Theory Wik
@@ -7953,7 +7953,7 @@
 53/121 group [Dutt Research Group]
 53/122 Alumni from the Donald Bren School of Information and Computer Sciences
 53/123 UCI Machine Learning Repository
-53/124 id="pageTitle">Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
+53/124 id="pageTitle"> Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
 53/125 Dr. Rina Dechter @ UCI
 53/126 Arcadia Collected Papers: ABSTRACT
 53/127 Sepehr Akhavan
@@ -8207,7 +8207,7 @@
 1/214 home [Dutt Research Group]
 1/216 Teamware - Process Support System
 1/217 Alumni from the Donald Bren School of Information and Computer Sciences
-1/210 id="pageTitle">Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
+1/210 id="pageTitle"> Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
 1/211 grouptab_files_upload_do_media_ns_documents [Dutt Research Group]
 1/212 Alumni from the Donald Bren School of Information and Computer Sciences
 1/213 Index of /databases/mushroom
@@ -8244,7 +8244,7 @@
 65/369 Nef_polyhedron_S2&lt;Traits&gt;
 65/368 Index of /data/hepjets/highlev
 69/157 14.23 OEGeom3DRota
-23/266 id="pageTitle">Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
+23/266 id="pageTitle"> Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
 23/267 Alumni from the Donald Bren School of Information and Computer Sciences
 23/264 Pierre Baldi :: University of California, Irvin
 23/265 Alumni from the Donald Bren School of Information and Computer Sciences
@@ -8377,7 +8377,7 @@
 16/12 SLI | Ihler-Photos / Main
 16/13 BerEpp-IMR-01
 16/10 Archive of Working Group on Versioning and Configuration Management of World Wide Web Content: Re: Version identifier in URL
-16/11 id="pageTitle">Facebook
+16/11 id="pageTitle"> Facebook
 9/93 home [Dutt Research Group]
 9/91 Index of /~rickl/courses/cs-271/2013-wq-cs271/CS-271-WQ-2013_files
 9/90 Index of /~rickl/courses/AI-projects/connect-k/CS171ConnectKStudentResources/AI_Poor
@@ -8703,7 +8703,7 @@
 13/458 MySQL Query Error
 13/459 Donald Bren Hall of Fame video
 13/454 software:arem  Machine Learning and Bioinformatics Lab
-13/456 ICS 6N Fall 2013<br/> Syllabus
+13/456 ICS 6N Fall 2013 Syllabus
 13/450 publications  Machine Learning and Bioinformatics Lab
 13/451 KniGra-ACL-97
 13/452 Index of /~pattis/common/handouts/macpythoneclipsejava/images
@@ -9239,7 +9239,7 @@
 30/496 My Home Pag
 30/491 Welcome to the CS theory wiki! - CS Theory Wik
 30/490 Alumni from the Donald Bren School of Information and Computer Sciences
-30/493 ICS 6D Fall 2014<br/> Syllabus
+30/493 ICS 6D Fall 2014 Syllabus
 17/114 Proc. 4th Int. Worksh. Algorithm Engineering &amp; Experiments (ALENEX 2002)
 6/97 start  Machine Learning and Bioinformatics Lab
 30/499 grouptab_files_upload_do_media_ns_documents [Dutt Research Group]
@@ -9512,7 +9512,7 @@
 16/98 home [Dutt Research Group]
 16/99 Alumni from the Donald Bren School of Information and Computer Sciences
 16/96 Index of /~eppstein/PADS
-16/97 id="pageTitle">Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
+16/97 id="pageTitle"> Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
 16/94 faculty profile @ the bren school of information and computer sciences at uc irvin
 16/95 Function GO Term binding And related genes
 16/92 Class c2.framework.Brick
@@ -9716,7 +9716,7 @@
 42/241 Chimera 2.0 Tutorial: Items needed for the first hierarchical web examp
 42/240 UCI Machine Learning Repository
 35/268 VHDL Reference Guide - File Declaration
-68/462 id="pageTitle">Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
+68/462 id="pageTitle"> Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
 35/263 Virtual Collaboration Porta
 35/262 Dic-CCCG-92
 35/261 photos [Dutt Research Group]
@@ -9820,7 +9820,7 @@
 58/479 Index of /~rickl/courses/AI-projects/new_coding_shells_2016/new-connect-k/TeachingResources/ConnectK/__pycache__
 58/475 Theory Seminar, 22 May 1998
 58/474 Ricardo Conejo Muoz
-58/477 id="pageTitle">Facebook
+58/477 id="pageTitle"> Facebook
 58/476 group [Dutt Research Group]
 58/471 Project SHERLOCK @ UCI: People.
 58/470 Bren School of ICS Public Calendar | Donald Bren School of Information and Computer Sciences
@@ -10165,7 +10165,7 @@
 61/498 Fab-VARM-03
 21/90 graduation and beyond @ the bren school of information and computer sciences
 21/91 David Eppstein - Publications
-21/92 id="pageTitle">Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
+21/92 id="pageTitle"> Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
 21/93 UCI Machine Learning Repository
 21/94 Introduction
 21/95 Why is Software Even Important?
@@ -10267,7 +10267,7 @@
 34/174 Li-TR-00
 34/175 Index of /~develop/SAOSlideshow050616
 17/379 Len-THJ-03
-34/178 id="pageTitle">Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
+34/178 id="pageTitle"> Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
 34/179 Attachments for "HelpOnAutoAdmin" - GraphModAlg@UCI
 17/378 Index of /~keldefra/papers
 17/377 Worst predictions : D4H0_fi_e126_s7_lowestPos.tx
@@ -10761,7 +10761,7 @@
 28/197 software:arem  Machine Learning and Bioinformatics Lab
 28/196 Process GO Term DNA metabolism And related genes
 28/195 faculty profile @ the bren school of information and computer sciences at uc irvin
-28/194 ICS 6D Spring 2015<br/> Syllabus
+28/194 ICS 6D Spring 2015 Syllabus
 28/193 Index of /~redmiles/inf143-SQ09/Assignment1
 28/192 photos [Dutt Research Group]
 28/191 faculty profile @ the bren school of information and computer sciences at uc irvin
@@ -10972,7 +10972,7 @@
 6/153 about the bren gift @ the bren school of information and computer sciences
 6/154 Improved algorithms for point placemen
 18/56 about the bren gift @ the bren school of information and computer sciences
-6/156 id="pageTitle">Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
+6/156 id="pageTitle"> Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
 6/157 Worst predictions : D4H20_un_e132_s2_lowestPos.tx
 18/57 UCI Machine Learning Repository
 48/109 Claire Kenyon
@@ -11777,7 +11777,7 @@
 8/144 Information for Prospective Graduate Students
 8/147 Cha-IJMS-01
 8/146 hwSwPartition
-8/141 id="pageTitle">Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
+8/141 id="pageTitle"> Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
 8/140 Alumni from the Donald Bren School of Information and Computer Sciences
 8/143 Arcadia at UCI
 8/142 UCI Machine Learning Repository
@@ -11794,7 +11794,7 @@
 8/493 Ed Pegg, Jr.
 8/492 Pes-TR-98
 8/491 drg101_admin [Dutt Research Group]
-8/490 id="pageTitle">Facebook
+8/490 id="pageTitle"> Facebook
 8/497 Alumni from the Donald Bren School of Information and Computer Sciences
 8/496 UCI Machine Learning Repository
 8/495 13.3 Pi2
@@ -11835,7 +11835,7 @@
 63/385 Index of /~pattis/images/Rich Stuff
 63/384 U
 63/387 start  Machine Learning and Bioinformatics Lab
-63/386 id="pageTitle">Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
+63/386 id="pageTitle"> Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
 37/221 software:arem  Machine Learning and Bioinformatics Lab
 37/220 Jacqueline Lee  Women in Information and Computer Sciences
 37/223 Index of /~rickl/courses/AI-projects/new_coding_shells_2016/old-ais-sudoku
@@ -12406,7 +12406,7 @@
 21/280 Alumni from the Donald Bren School of Information and Computer Sciences
 21/281 Shortest path in complete bipartite digraph problem and its applications
 21/286 Evoke Lab 1  EVOKE Lab and Studio
-21/287 ICS 6D Fall 2016<br/> Syllabus
+21/287 ICS 6D Fall 2016 Syllabus
 21/284 about the bren gift @ the bren school of information and computer sciences
 21/285 about the bren gift @ the bren school of information and computer sciences
 21/288 ICS 1C Summer 1996: Course Schedu
@@ -12635,7 +12635,7 @@
 70/26 Babak Shahbaba, Biostatistics with R
 70/25 An $O(n\log n)$ algorithm for finding a $k$-point subset with minimal $L_\infty$-diameter
 70/24 drg101_admin [Dutt Research Group]
-70/29 id="pageTitle">Facebook
+70/29 id="pageTitle"> Facebook
 70/28 photostab_details_history_image_andre2.jpg_ns_do_media [Dutt Research Group]
 67/385 Index of /~pattis/common/handouts/debugger/images
 69/158 Index of /~develop/press/SFSKids Relaunch
@@ -12683,7 +12683,7 @@
 64/145 Index of /~pattis/common/handouts
 15/324 Results on Naive Bayesian Classifier
 15/325 Reflecting on your life  Ramesh Jain
-15/326 id="pageTitle">Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
+15/326 id="pageTitle"> Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
 15/327 Kurt Mehlhorn
 15/320 about the bren gift @ the bren school of information and computer sciences
 64/146 Index of /data
@@ -12749,7 +12749,7 @@
 73/15 NecTob-WSCG-99
 73/14 Cartesian Product Attributes
 73/12 VNIT Golden Jubilee  Ramesh Jain
-73/11 id="pageTitle">Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
+73/11 id="pageTitle"> Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
 73/10 Links for chapters &amp; Misc
 73/18 Thnh ph Irvine  UC Irvine  BREN: Khoa hc Thng tin v in ton  i hc California Irvin
 65/291 SLI | Classes-CS178-Notes / HierarchAC | Login
@@ -13660,7 +13660,7 @@
 51/291 SLI | Classes / CS274b: Ideas for Projects
 51/292 Alumni from the Donald Bren School of Information and Computer Sciences
 51/293 Arcadia Collected Papers: ABSTRACT
-56/284 id="pageTitle">Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
+56/284 id="pageTitle"> Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
 56/288 Machine Learning Papers | Eric Mjolsness
 56/289 software:arem  Machine Learning and Bioinformatics Lab
 49/204 Worst predictions : D4H20_fi_e126_s0_lowestPos.tx
@@ -13761,7 +13761,7 @@
 74/111 Alumni from the Donald Bren School of Information and Computer Sciences
 74/112 Alumni from the Donald Bren School of Information and Computer Sciences
 74/113 Ban S v Sinh vin  LIN H  BREN: Khoa hc Thng tin v in ton  i hc California Irvin
-57/270 id="pageTitle">Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
+57/270 id="pageTitle"> Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
 57/271 UCI Machine Learning Repository
 57/272 What is an Object (1)
 57/273 Alumni from the Donald Bren School of Information and Computer Sciences
@@ -13866,7 +13866,7 @@
 5/203 home [Dutt Research Group]
 10/346 about the bren gift @ the bren school of information and computer sciences
 10/345 UCI Machine Learning Repository
-5/200 id="pageTitle">Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
+5/200 id="pageTitle"> Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
 69/400 3.23.1 Constructors
 69/401 DakGol-ICSS-02
 69/402 Nef Polyhedra embedded on the Spher
@@ -14082,7 +14082,7 @@
 71/432 Bad filter inpu
 71/430 Sharouz K. Aliabad
 71/431 David Eppstein - Publications
-71/437 id="pageTitle">Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
+71/437 id="pageTitle"> Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
 71/434 Index
 71/435 about the bren gift @ the bren school of information and computer sciences
 62/19 drg101_admin [Dutt Research Group]
@@ -14521,7 +14521,7 @@
 27/128 software:arem  Machine Learning and Bioinformatics Lab
 67/407 Deliverable 5: Final Demonsration
 41/29 Alumni from the Donald Bren School of Information and Computer Sciences
-41/28 id="pageTitle">Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
+41/28 id="pageTitle"> Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
 36/169 Index of /~minhaenl/class/2015/cs_171_fall/draft/results/results_vs_AverageAI_w9_h7_g1/FightingMongooses
 36/168 Econ 11 / ICS 11
 41/23 password change/reset @ the bren school of information and computer sciences
@@ -14575,7 +14575,7 @@
 31/99 UCI Machine Learning Repository
 31/98 Coloring objects built from bricks
 11/207 4.19 OEBondIsInAromaticRingSiz
-11/206 xmlns="">Christian Medeiros Adriano
+11/206 xmlns=""> Christian Medeiros Adriano
 11/205 helpdesk @ the bren school of information and computer sciences
 11/204 software:arem  Machine Learning and Bioinformatics Lab
 11/203 UCI Machine Learning Repository
@@ -15992,7 +15992,7 @@
 3/275 Index of /public_data/SREBP2
 3/276 Function GO Term chaperonin ATPase activity And related genes
 3/277 group [Dutt Research Group]
-3/278 id="pageTitle">Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
+3/278 id="pageTitle"> Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
 3/279 Proc. 17th Symp. Computational Geometry
 46/58 Previous Work
 73/441 WenMukCha-CN-03
@@ -16480,7 +16480,7 @@
 71/385 Alumni from the Donald Bren School of Information and Computer Sciences
 70/439 UCI Machine Learning Repository
 70/438 4.46 OEFormalPartialCharges
-71/380 id="pageTitle">Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
+71/380 id="pageTitle"> Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
 71/381 Index of /~bic/os/GIF/Ch11
 71/382 home [Dutt Research Group]
 71/383 Exact algorithms for circles on the spher
@@ -17666,7 +17666,7 @@
 46/29 Alumni from the Donald Bren School of Information and Computer Sciences
 69/181 Info Session  Women in Information and Computer Sciences
 69/183 grouptab_details_view_image_rahmani.jpg_ns_do_media [Dutt Research Group]
-69/182 id="pageTitle">Facebook
+69/182 id="pageTitle"> Facebook
 39/339 Informatics 42 Syllabus * Winter 2005
 39/338 Alumni from the Donald Bren School of Information and Computer Sciences
 39/335 SPIN Flyer
@@ -18042,7 +18042,7 @@
 72/210 group [Dutt Research Group]
 72/213 faculty profile @ the bren school of information and computer sciences at uc irvin
 72/212 Process GO Term molting cycle And related genes
-72/215 id="pageTitle">Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
+72/215 id="pageTitle"> Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
 72/214 Geometry Publications by Author
 72/217 faculty profile @ the bren school of information and computer sciences at uc irvin
 72/216 Archive of Working Group on Versioning and Configuration Management of World Wide Web Content: RE: Microsoft Feature Support List (V 0.1, ALPHA, 8/26/96)
@@ -18242,7 +18242,7 @@
 31/239 Alumni from the Donald Bren School of Information and Computer Sciences
 64/465 about the bren gift @ the bren school of information and computer sciences
 64/464 Student Affairs  Contact  Bren School of Information and Computer Sciences  University of California Irvin
-43/39 ICS / Intranet - login!</big>
+43/39 ICS / Intranet - Please login!
 43/32 List of Tables
 43/30 Index of /~rickl/courses/AI-projects/new_coding_shells_2016/new-connect-k/StudentResources/java
 43/31 WolJunDoh-IMR-98
@@ -18641,7 +18641,7 @@
 16/453 Alumni from the Donald Bren School of Information and Computer Sciences
 16/452 Faculty positions - interview questions - CS Theory Wik
 26/399 HelpMiscellaneous/ExperimentalFeatures - GraphModAlg@UCI
-26/398 id="pageTitle">Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
+26/398 id="pageTitle"> Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
 26/397 grouptab_details_view_image_rahmani.jpg_ns_do_mediatab_files_search_do_media_tab_details_history_image_yukio-farewell-lunch-jan28-2014.jpg_ns_presentations [Dutt Research Group]
 26/395 Alumni from the Donald Bren School of Information and Computer Sciences
 26/394 Social Capital  EVOKE Lab and Studio
@@ -18739,7 +18739,7 @@
 27/471 Function GO Term structural molecule activity And related genes
 27/470 3.34.18 SetFragmentNumber
 27/477 drg101_admin [Dutt Research Group]
-27/475 id="pageTitle">Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
+27/475 id="pageTitle"> Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
 27/474 B348/S2567
 27/478 projects [Dutt Research Group]
 68/412 Computer science professor Max Welling was the recipient of a 2006 MURI Award | Center for Machine Learning and Intelligent Systems
@@ -19150,7 +19150,7 @@
 72/161 Ban S v Sinh vin  LIN H  BREN: Khoa hc Thng tin v in ton  i hc California Irvin
 72/160 Technical Interchange, Roundtable, and Networking Meetings
 9/239 Storytelling  Ramesh Jain
-72/169 id="pageTitle">Facebook
+72/169 id="pageTitle"> Facebook
 72/168 CS 221 - Information Retrieva
 60/148 David Eppstein - Publications
 9/236 Index of /~pattis/common/handouts/cygwinclion/images/clion
@@ -19261,7 +19261,7 @@
 73/208 Archive of Working Group on Versioning and Configuration Management of World Wide Web Content: Re: Version identifier in URL
 73/203 Misranked Orb Pair Display
 73/201 Process GO Term molting cycle And related genes
-73/200 id="pageTitle">Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
+73/200 id="pageTitle"> Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
 73/207 Practice Using Checkin
 73/206 Ipe tutorial - CS Theory Wik
 73/205 Worst predictions : D4H20_fi_e130_s0_lowestPos.tx
@@ -19515,7 +19515,7 @@
 6/43 Process GO Term physiological processes And related genes
 71/223 Index of /~bic/os/GIF/Ch08
 7/469 faculty profile @ the bren school of information and computer sciences at uc irvin
-71/222 id="pageTitle">Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
+71/222 id="pageTitle"> Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
 47/220 RIP My four legged son  Ramesh Jain
 47/221 Info Session  Women in Information and Computer Sciences
 47/222 about the bren gift @ the bren school of information and computer sciences
@@ -19548,7 +19548,7 @@
 28/31 GroTur-STACS-02
 28/30 software:arem  Machine Learning and Bioinformatics Lab
 28/33 ICS 1F, Homework 3 Solutions
-28/32 id="pageTitle">Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
+28/32 id="pageTitle"> Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
 28/35 about the bren gift @ the bren school of information and computer sciences
 28/34 UCI Machine Learning Repository
 28/36 Info Session  Women in Information and Computer Sciences
@@ -19703,7 +19703,7 @@
 5/26 Univ. Paris 8, Lab. d'Intelligence Artific
 5/27 Archive of Working Group on Versioning and Configuration Management of World Wide Web Content: Re: Seiwald Q &amp; A -- "GET for EDIT" cookies
 5/24 AMRM:
-5/28 id="pageTitle">Facebook
+5/28 id="pageTitle"> Facebook
 63/120 UCI Machine Learning Repository
 15/469 software:arem  Machine Learning and Bioinformatics Lab
 15/468 Jrgen Wirtgen
@@ -19881,7 +19881,7 @@
 28/4 Knowledg
 2/178 Most Expensive Insertion for Rectilinear Max-TSP
 70/256 Dynamic Architectures
-2/176 id="pageTitle">Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
+2/176 id="pageTitle"> Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
 2/177 Julio C. Lpez
 2/174 Application Use of WebDAV
 2/175 Video Search: Presenting results  Ramesh Jain
@@ -20049,7 +20049,7 @@
 28/340 Marian Petre visit  Software Design and Collaboration Laboratory
 28/341 graduate student list @ the bren school of information and computer sciences
 31/63 UCI Machine Learning Repository
-28/348 id="pageTitle">Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
+28/348 id="pageTitle"> Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
 28/349 start  Machine Learning and Bioinformatics Lab
 5/469 Ipe tutorial - CS Theory Wik
 44/155 Reducing Misclassification Costs
@@ -20125,7 +20125,7 @@
 0/154 Index of /~magda/Courses/Wireless/tcom510
 0/155 Researcher  Ramesh Jain
 61/299 UCI Machine Learning Repository
-0/153 id="pageTitle">Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
+0/153 id="pageTitle"> Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
 0/151 Process GO Term physiological processes And related genes
 61/295 Contact Us | Center for Machine Learning and Intelligent Systems
 61/294 Alumni from the Donald Bren School of Information and Computer Sciences
@@ -20202,7 +20202,7 @@
 23/482 Info Session  Women in Information and Computer Sciences
 23/483 Key Interoperability Issues
 23/480 Function GO Term translation regulator activity And related genes
-23/481 id="pageTitle">Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
+23/481 id="pageTitle"> Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
 23/486 Index of /~kibler/ics171
 23/487 Olaf A. Hall-Ho
 23/484 CHEM.DB.rdb.rdbgateway
@@ -20478,7 +20478,7 @@
 65/439 start  Machine Learning and Bioinformatics Lab
 35/449 Richard H. Lathrop Grand Canyon
 35/448 drg101_admin [Dutt Research Group]
-42/355 ICS 6D Spring 2016<br/> Syllabus
+42/355 ICS 6D Spring 2016 Syllabus
 42/354 Virtual Collaboration Porta
 42/357 8.4.17 EqCHalogen
 42/356 Fourth Homework
@@ -20793,7 +20793,7 @@
 0/4 Dr. Rina Dechter @ UCI
 0/5 Index of /~dock/manuals/sgePrimer
 0/2 Alumni from the Donald Bren School of Information and Computer Sciences
-0/3 id="pageTitle">Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
+0/3 id="pageTitle"> Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
 57/311 Minimum convex partition of a polygon with holes by cuts in given directions
 0/1 Open Source Projects
 9/89 Cal-FOCS-93
@@ -20873,7 +20873,7 @@
 40/369 Translating a planar object to maximize point containmen
 7/472 News  Women in Information and Computer Sciences
 72/469 Tkogan D. Hemazro
-5/140 id="pageTitle">Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
+5/140 id="pageTitle"> Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
 5/141 Index of /~minhaenl/class/2015/cs_171_fall/draft/results/results_vs_AverageAI_w9_h8_g0/really_la
 5/142 software:arem  Machine Learning and Bioinformatics Lab
 5/143 UCI Machine Learning Repository: Optical Recognition of Handwritten Digits Data Set: Suppor
@@ -20994,7 +20994,7 @@
 46/274 Index of /~stasio/winter06/Lectures/GTlectures
 9/171 SLI | PmWiki / WikiWord
 14/246 Index of /~rickl/courses/AI-projects/connect-k/OldTournamentFINAL/Executab
-14/247 id="pageTitle">Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
+14/247 id="pageTitle"> Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
 14/244 The Geometry Junkyard: Origamic Tetrahedron
 14/245 quantified self  Ramesh Jain
 14/242 Dr. Rina Dechter @ UCI
@@ -21327,7 +21327,7 @@
 62/346 LiTen-IRREG-98
 60/29 SLI | Group / Alexander Ihler
 62/340 Edward R. Scheinerman
-62/341 id="pageTitle">Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
+62/341 id="pageTitle"> Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
 62/342 drg101
 62/343 C:\Users\sandyirani\Desktop\ICS6D\02_SetsFunctions.cp3
 60/23 BadContent - UAI '08 Workshop: Probabilistic Reasoning Systems
@@ -21686,7 +21686,7 @@
 28/260 Uses of Class Raccoon.QE.element.INSERT
 28/262 Database Research Group @ UCI
 68/431 Freshmen  Admissions  Bren School of Information and Computer Sciences  University of California Irvin
-28/269 id="pageTitle">Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
+28/269 id="pageTitle"> Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
 28/268 WICS Meeting  Women in Information and Computer Sciences
 69/237 Alumni from the Donald Bren School of Information and Computer Sciences
 68/432 ICS H22 Winter 2006, Lab 3: The Company Payro
@@ -21725,7 +21725,7 @@
 19/332 Bren School of ICS Public Calendar | Donald Bren School of Information and Computer Sciences
 19/331 Index of /~dock/mkayala/upload
 19/330 Richard H. Lathrop Phi Beta Kappa
-64/400 id="pageTitle">Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
+64/400 id="pageTitle"> Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
 64/403 Index of /~minhaenl/class/2015/cs_171_fall/fina
 32/242 grouptab_details_view_image_rahmani.jpg_ns_do_mediatab_files_search_do_media_tab_details_history_image_yukio-farewell-lunch-jan28-2014.jpg_ns_presentations [Dutt Research Group]
 32/243 Outlines of Some Common Types of Writing
@@ -21942,7 +21942,7 @@
 2/28 Weighted_alpha_shape_euclidean_traits_3&lt;K&gt;
 2/27 photos [Dutt Research Group]
 2/26 Learning Parity
-2/25 id="pageTitle">Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
+2/25 id="pageTitle"> Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
 2/22 Alumni from the Donald Bren School of Information and Computer Sciences
 2/21 has_smaller_signed_distance_to_plan
 2/20 A new algorithm to compute alternate paths in reliable OSPF (ROSPF)
@@ -22309,7 +22309,7 @@
 73/151 3.14.4 GetPatternAtoms
 23/396 Index of /~majumder/VC/assn/DFT-gallery
 23/397 David Eppstein - Publications
-23/394 id="pageTitle">Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
+23/394 id="pageTitle"> Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
 23/395 HelpOnInstalling/WebLogic - GraphModAlg@UCI
 23/392 Uses of Interface Raccoon.NET.NetModule
 23/393 Does Prior Knowledge Only Select Relevant Attributes?
@@ -22393,7 +22393,7 @@
 25/231 Xin H
 25/230 software:arem  Machine Learning and Bioinformatics Lab
 64/399 photos [Dutt Research Group]
-64/398 id="pageTitle">Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
+64/398 id="pageTitle"> Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
 63/78 PatternMatchCounter: Counts Functional Groups
 63/74 faculty profile @ the bren school of information and computer sciences at uc irvin
 63/75 Space-Time Modeling
@@ -22682,7 +22682,7 @@
 14/366 software:arem  Machine Learning and Bioinformatics Lab
 14/361 Alumni from the Donald Bren School of Information and Computer Sciences
 14/360 BREN:   (ICS)
-14/362 id="pageTitle">Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
+14/362 id="pageTitle"> Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
 14/369 COVERT Tool - Software Engineering and Analysis Lab (SEAL)
 14/368 about the bren gift @ the bren school of information and computer sciences
 24/122 software:arem  Machine Learning and Bioinformatics Lab
@@ -23425,7 +23425,7 @@
 52/176 Alumni from the Donald Bren School of Information and Computer Sciences
 52/177 ICS 125 Project Opportunities
 52/174 wikipedia  Ramesh Jain
-44/170 id="pageTitle">Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
+44/170 id="pageTitle"> Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
 52/178 Theory Seminar, April 17 , 2009
 52/179 Info Session  Women in Information and Computer Sciences
 44/179 Anna R. Karlin
@@ -23475,7 +23475,7 @@
 61/247 academic honesty @ the bren school of information and computer sciences
 61/244 undergraduate education @ the bren school of information and computer sciences
 61/245 3.35.4 AddConstrain
-72/477 id="pageTitle">Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
+72/477 id="pageTitle"> Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
 56/419 Alumni from the Donald Bren School of Information and Computer Sciences
 56/415 aspdac 05
 56/414 Example: Modeling ArgoUMLs Search Utility
@@ -23565,7 +23565,7 @@
 5/420 File Menu in the Hyperweb Server
 6/149 Index of /~dock/manuals
 6/148 UCI Software Architecture Research - UCI Software Architecture Research: C2 Sty
-29/10 id="pageTitle">Facebook
+29/10 id="pageTitle"> Facebook
 14/14 software:arem  Machine Learning and Bioinformatics Lab
 28/479 grouptab_details_view_image_rahmani.jpg_ns_do_media [Dutt Research Group]
 54/198 Game mechanics
@@ -24035,7 +24035,7 @@
 63/473 Welcome to the CS theory wiki! - CS Theory Wik
 68/268 grouptab_files_upload_do_media_ns_documents [Dutt Research Group]
 63/471 Ban S v Sinh vin  LIN H  BREN: Khoa hc Thng tin v in ton  i hc California Irvin
-63/470 id="pageTitle">Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
+63/470 id="pageTitle"> Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
 63/477 Univ. of New Brunswick, Faculty of Computer Scienc
 63/476 ICS 45C Fall 2016, Schedu
 63/475 Theory Seminar, 28 May 2004
@@ -24098,7 +24098,7 @@
 68/204 Special Events and Activities
 68/203 Index of /~pattis/common/handouts/macclion/libraries/gtestlib
 8/336 OTCompiler
-8/337 ICS 6B Fall 2015<br/> Syllabus
+8/337 ICS 6B Fall 2015 Syllabus
 8/334 In the News @ Donald Bren School of Information and Computer Sciences
 8/335 UCI Machine Learning Repository
 8/332 home [Dutt Research Group]
@@ -24544,7 +24544,7 @@
 70/0 DAV Properties - Introduction
 70/1 20.4 Handling Isotopes
 52/175 SLI | Category / GroupFooter
-70/3 id="pageTitle">Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
+70/3 id="pageTitle"> Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
 28/100 HalShaGol-Algs-02
 28/101 Component GO Term cell And related genes
 28/103 grouptab_details_view_image_rahmani.jpg_ns_do_mediado_recent [Dutt Research Group]
@@ -25047,7 +25047,7 @@
 25/460 3.23.15 PushActiv
 25/461 Index of /~bic/os/GIF/Ch04/_vti_cnf
 25/466 grouptab_details_view_image_rahmani.jpg_ns_do_mediatab_files_search_do_media_tab_details_history_image_yukio-farewell-lunch-jan28-2014.jpg_ns_presentations [Dutt Research Group]
-25/467 id="pageTitle">Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
+25/467 id="pageTitle"> Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
 25/464 UCI Machine Learning Repository
 25/465 G. W. Kwon
 50/413 Campus contacts - CS Theory Wik
@@ -25305,7 +25305,7 @@
 65/280 about the bren gift @ the bren school of information and computer sciences
 65/281 Redmin
 65/286 Fully dynamic cycle-equivalence in graphs
-65/287 id="pageTitle">Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
+65/287 id="pageTitle"> Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
 65/284 IEICE Trans. Information &amp; Systems
 65/285 Virtual Collaboration Porta
 65/288 Info Session  Women in Information and Computer Sciences
@@ -25511,7 +25511,7 @@
 69/327 Info Session  Women in Information and Computer Sciences
 69/326 software:arem  Machine Learning and Bioinformatics Lab
 54/18 Semantic Heterogeneity
-54/19 id="pageTitle">Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
+54/19 id="pageTitle"> Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
 69/323 Cha-DCG-03-width
 69/322 Function GO Term catalytic activity And related genes
 30/226 ICS 31 Syllabus  Fall 2015
@@ -25523,7 +25523,7 @@
 46/231 Alloy
 35/407 SPIN Flyer
 46/238 Strategy #2:UML Metamodeling Architectur
-46/239 id="pageTitle">Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
+46/239 id="pageTitle"> Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
 30/220 drg101_admin [Dutt Research Group]
 35/404 UCI Machine Learning Repository
 31/266 Alumni from the Donald Bren School of Information and Computer Sciences
@@ -26352,7 +26352,7 @@
 66/458 Worst predictions : D4H0_fi_e128_s1_lowestPos.tx
 0/211 ChaHalMot-SODA-98
 0/210 Alumni from the Donald Bren School of Information and Computer Sciences
-0/213 id="pageTitle">Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
+0/213 id="pageTitle"> Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
 0/212 contr-disciplines.htm
 0/215 SLI | Classes / iCAMP Undergraduate Summer Research: Collaborative Filtering
 0/214 BarDemGif-WABI-02
@@ -26426,7 +26426,7 @@
 10/353 B3678/S35678
 69/435 Bren School of ICS Public Calendar | Donald Bren School of Information and Computer Sciences
 69/434 Index of /~emilyo/teaching/info122w2014/samplecode/lecture8/SimpleFactory/src
-69/437 id="pageTitle">Facebook
+69/437 id="pageTitle"> Facebook
 69/436 Semantics Loss
 10/358 James P. Crutchfield
 10/359 Dr. Rina Dechter @ UCI
@@ -27687,7 +27687,7 @@
 7/285 Alumni from the Donald Bren School of Information and Computer Sciences
 7/284 software:arem  Machine Learning and Bioinformatics Lab
 7/287 Quality meshing with weighted Delaunay refinemen
-7/286 id="pageTitle">Facebook
+7/286 id="pageTitle"> Facebook
 7/289 PVNodeInfo
 7/288 about the bren gift @ the bren school of information and computer sciences
 66/496 Yelda Aydin
@@ -28207,7 +28207,7 @@
 24/348 Dynamic visibility in the plan
 24/349 Jacqueline Lee  Women in Information and Computer Sciences
 56/114 UCI Machine Learning Repository
-56/115 ICS 6D Summer 2014<br/> Syllabus
+56/115 ICS 6D Summer 2014 Syllabus
 56/116 Index of /~michele/Buttons-old
 56/117 about the bren gift @ the bren school of information and computer sciences
 56/110 Amortizing the
@@ -29030,7 +29030,7 @@
 70/420 UCI Machine Learning Repository
 70/421 Contact | Padhraic Smyth
 70/422 Theory Seminar, 7 Jan 2011
-70/423 id="pageTitle">Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
+70/423 id="pageTitle"> Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
 69/168 Index of /~rickl/courses/cs-271/2013-wq-cs271/2013-wq-cs271-lecture-slides
 15/368 Challenges
 15/369 Welcome to the CS theory wiki! - CS Theory Wik
@@ -29979,7 +29979,7 @@
 13/446 Student Affairs  Contact  Bren School of Information and Computer Sciences  University of California Irvin
 13/445 Antoine Vigneron
 13/444 photos [Dutt Research Group]
-48/89 id="pageTitle">Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
+48/89 id="pageTitle"> Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
 48/263 UCI Machine Learning Repository: Servo Data Set: Suppor
 48/262 ch_e_poin
 48/261 Cheng-Shong Wu
@@ -30090,7 +30090,7 @@
 29/268 Using randomized sparsification to approximate minimum cuts
 20/453 Component GO Term cell And related genes
 20/450 publications [Dutt Research Group]
-20/451 id="pageTitle">Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
+20/451 id="pageTitle"> Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
 20/456 Alumni from the Donald Bren School of Information and Computer Sciences
 20/454 Index of /~pattis/common/handouts/pythoneclipsejava/images/eclips
 20/455 software:arem  Machine Learning and Bioinformatics Lab
@@ -30294,7 +30294,7 @@
 67/105 Sheffield Hallam Univ., School of Computing and Management Sciences
 66/47 Index of /~wscacchi/GameLab/Recommended Readings/Images
 67/104 Alumni from the Donald Bren School of Information and Computer Sciences
-36/58 Timesheet System - login!</big>
+36/58 Timesheet System - Please login!
 36/59 drg101_admin [Dutt Research Group]
 36/54 Index of /public_data/shilab/other
 36/55 software:arem  Machine Learning and Bioinformatics Lab
@@ -31428,7 +31428,7 @@
 50/34 Alumni from the Donald Bren School of Information and Computer Sciences
 30/331 Index of /~bic/os/GIF/Ch03/_vti_cnf
 30/332 Ban S v Sinh vin  LIN H  BREN: Khoa hc Thng tin v in ton  i hc California Irvin
-30/333 ICS 6D Winter 2017<br/> Syllabus
+30/333 ICS 6D Winter 2017 Syllabus
 52/161 Software Architectures
 52/160 UCI Machine Learning Repository
 67/249 people  Machine Learning and Bioinformatics Lab
@@ -31586,7 +31586,7 @@
 55/374 proceedings [Dutt Research Group]
 26/411 Having Fun with Java Bytecod
 26/412 UCI Machine Learning Repository
-26/413 id="pageTitle">Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
+26/413 id="pageTitle"> Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
 26/414 A faster off-line algorithm for the TCP acknowledgement problem
 26/415 WICS Meeting  Women in Information and Computer Sciences
 26/416 Incremental and decremental maintenance of planar width
@@ -31871,7 +31871,7 @@
 44/353 Index of /~bic/os/GIF/Ch11
 44/352 home [Dutt Research Group]
 44/351 UCI Machine Learning Repository
-44/350 1-d Arrays, The class, and Simple Collections
+44/350 1-d Arrays, The Object class, and Simple Collections
 44/357 Alumni from the Donald Bren School of Information and Computer Sciences
 44/356 The twenty highest period gliders
 44/355 Env
@@ -32254,7 +32254,7 @@
 44/119 drg101_admin [Dutt Research Group]
 52/155 CML professor Charless Fowlkes receives NSF CAREER Award | Center for Machine Learning and Intelligent Systems
 52/156 AkyAnjChe-CC-03
-52/157 id="pageTitle">Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
+52/157 id="pageTitle"> Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
 52/150 Dnynamism Suppor
 52/151 faculty profile @ the bren school of information and computer sciences at uc irvin
 52/152 EldLinPor-TR-96
@@ -32280,7 +32280,7 @@
 42/5 Rescue Dissemination Projec
 42/4 Computational Vision | ICS | UC Irvin
 46/98 CHEM.CombiCDB.Env
-20/294 id="pageTitle">Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
+20/294 id="pageTitle"> Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
 20/295 Index of /~michele/Persona
 20/296 Sam, Author at Software Engineering and Analysis Lab (SEAL)
 20/290 about the bren gift @ the bren school of information and computer sciences
@@ -32319,7 +32319,7 @@
 43/484 ICS 184 / EECS 116 Summer 2006
 43/485 8.4.15 EqPS
 43/486 ICGSE 2016 - 11th International Conference on Global Software Engineering
-43/487 id="pageTitle">Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
+43/487 id="pageTitle"> Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
 43/480 UCI Machine Learning Repository
 43/481 Process GO Term protein biosynthesis And related genes
 43/482 Gang Liu
@@ -32358,7 +32358,7 @@
 52/446 UCI Machine Learning Repository
 0/63 Dr. Rina Dechter @ UCI
 52/447 Index of /~dock/manuals/cgal_manual/Topological_map_ref
-0/62 id="pageTitle">Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
+0/62 id="pageTitle"> Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
 46/94 Alumni from the Donald Bren School of Information and Computer Sciences
 52/445 Info Session  Women in Information and Computer Sciences
 52/442 J. Parallel &amp; Distributed Computing
@@ -32429,7 +32429,7 @@
 12/402 Alumni from the Donald Bren School of Information and Computer Sciences
 12/403 aolibILP - GraphModAlg@UCI
 12/400 Index of /~bic/os/TIFF/Ch10
-12/401 id="pageTitle">Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
+12/401 id="pageTitle"> Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
 12/408 faculty profile @ the bren school of information and computer sciences at uc irvin
 12/409 UCI Machine Learning Repository
 54/428 UCI Machine Learning Repository
@@ -32463,7 +32463,7 @@
 61/97 Roberto Tamassia
 61/90 Glider 21664
 61/91 UCI Machine Learning Repository
-61/92 id="pageTitle">Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
+61/92 id="pageTitle"> Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
 61/93 Donald Bren School of Information and Computer Sciences @ University of California, Irvin
 61/99 An optimal algorithm for approximate nearest neighbor searching in fixed dimensions
 43/422 ICS 280C - Ubiquitous Computing
@@ -32483,7 +32483,7 @@
 53/338 Jacqueline Lee  Women in Information and Computer Sciences
 53/331 Media theory: representations and examples
 53/330 drg101_admin [Dutt Research Group]
-53/333 ICS/CSE 22 Spring 2011<br/> Syllabus
+53/333 ICS/CSE 22 Spring 2011 Syllabus
 53/332 Index of /~majumder/DIP/prog/imgassn1
 53/335 Ban S v Sinh vin  LIN H  BREN: Khoa hc Thng tin v in ton  i hc California Irvin
 53/334 undergraduate education @ the bren school of information and computer sciences
@@ -33252,7 +33252,7 @@
 32/408 Photo Taking Behaviour: Teens of Photography  Ramesh Jain
 32/409 ICGSE 2016 - 11th International Conference on Global Software Engineering
 67/420 Mechanism:
-67/421 id="pageTitle">Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
+67/421 id="pageTitle"> Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
 22/134 ICS Student Affairs Events
 22/133 UCI Machine Learning Repository
 67/423 Archive of Working Group on Versioning and Configuration Management of World Wide Web Content: An attempt at taxonomy
@@ -33304,7 +33304,7 @@
 68/166 Index of /releases/4.0/src/mattr
 68/167 Computational Vision | ICS | UC Irvin
 68/164 grouptab_files_upload_do_media_ns_documents [Dutt Research Group]
-68/165 id="pageTitle">Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
+68/165 id="pageTitle"> Donald Bren School of Information &amp; Computer Sciences at UC Irvine | Facebook
 68/162 Alumni from the Donald Bren School of Information and Computer Sciences
 68/163 people  Machine Learning and Bioinformatics Lab
 68/160 ICS 156: Networking Lab
@@ -33728,7 +33728,7 @@
 62/31 Theory Seminar
 47/61 about the bren gift @ the bren school of information and computer sciences
 47/60 software:arem  Machine Learning and Bioinformatics Lab
-47/63 ICS/CSE 23 Winter 2010<br/> Syllabus
+47/63 ICS/CSE 23 Winter 2010 Syllabus
 47/62 Proc. 4th Int. Conf. Parallel Architectures and Languages Europe (PARLE 1992)
 47/67 Index of /~minhaenl/class/2015/cs_171_fall/draft/results/results_vs_AverageAI_w9_h8_g0/TeamNotActuallyATeam
 47/66 Juliet Norton's Research Pag
